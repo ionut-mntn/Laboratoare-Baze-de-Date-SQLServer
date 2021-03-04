@@ -1,0 +1,41 @@
+Join 6:
+/* deci vreau sa selectez toate atractiile turistice din orasul
+in care se afla si atractica turistica declarata: capela sixtina
+*/
+
+--prima data:
+/*
+select ta.Name as 'TouristAttraction', ta.Description
+from TouristAttraction
+where cityOf(ta.Id
+
+declare @cityIdOfgivenTouristAttraction int = 
+             select top 1 ci.Id from City ci
+             join TouristAttraction ta on ci.Id = ta.Id
+             where ta.Name = @TouristAttraction
+             
+select ta.Name as 'TouristAttraction',
+from TouristAttration ta
+join City c on ta.Id = c.Id
+where c.Id = @cityIdOfgivenTouristAttraction
+*/
+/*
+declare @cityIdOfgivenTouristAttraction int
+-- insert into @cityIdOfgivenTouristAttraction
+select @cityIdOfgivenTouristAttraction = (select top 1 ci.Id from City ci
+             join TouristAttraction ta on ci.Id = ta.Id
+             where ta.Name = @TouristAttraction)
+             -- group by ci.Id
+
+select @cityIdOfgivenTouristAttraction
+
+select Name, Description from TouristAttraction
+where CityId = @cityIdOfgivenTouristAttraction
+*/
+
+declare @cityIdOfgivenTouristAttraction int
+set @cityIdOfgivenTouristAttraction = 3
+
+
+-- Write your code here
+

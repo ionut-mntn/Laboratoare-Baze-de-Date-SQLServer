@@ -1,0 +1,22 @@
+1) 
+
+
+Cand facem kanonische Uberdeckung si am ajuns la relatia1 si relatia2. Cand vine vorba de Zerlegung in BCNF 
+dependentele functionale pe care le asociez relatiilor alea pe care le obtin, le 
+iau din relatiile initiale pana sa fi facut eu Kanonische Uberdeckung?
+ 
+- am lamurit-o.. ma uit la toate alea initiale -
+
+
+ADMITEM valori nule pentru foreign key uri? gen cum am invatat pe la join uri!!!
+
+exista cazuri in care Key LookUp ul sa NU se faca in indexul non-clustered?
+
+2) e posibil sa pice intrebari de genul "precizati planul de executie" dar fara sa stim 
+macar niste statistici despre continutul tabelului?
+
+In sensul ca -daca am inteles bine- uneori se decide intre seek/scan in functie de statisti-
+cile alea de care ziceati dvs ca SQL-ul si le tine undeva in spate.
+
+3) Pot pica exercitii de genul: "dati exemplu de o relatie cu anumite proprietati sau intr-o anumita forma normala" si noi sa 
+trebuiasca sa ne gandim noi la un exemplu?

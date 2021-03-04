@@ -1,0 +1,8 @@
+merge KundenNew as source -- 
+using Kunden as target
+
+select...
+
+on Kunden.ID = KundenNew.ID
+
+when 
